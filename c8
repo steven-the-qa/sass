@@ -1,0 +1,8 @@
+// The main.scss file
+
+@import 'variables'
+
+
+//This is an 'import' statement used to include a 'partial' in the main SCSS file
+//A partial is a small segment of CSS code that acts as a sort of file folder for CSS rules
+//Basically it's like a node module. It's code that we want to reuse in multiple places under 1 name
