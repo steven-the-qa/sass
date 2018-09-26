@@ -1,0 +1,18 @@
+<style type='text/sass'>
+@for $j from 1 to 6 {
+  .text-#{$j}{
+    font-size: 10px * $j;
+  }
+} 
+</style>
+
+<p class="text-1">Hello</p>
+<p class="text-2">Hello</p>
+<p class="text-3">Hello</p>
+<p class="text-4">Hello</p>
+<p class="text-5">Hello</p>
+
+//Sass even has its own version of 'for' loop syntax called a '@for' directive!
+//It works the same, but again, watch that syntax! 
+//You can create a series of CSS rules that all follow a pattern 
+//For this example, we create a series of font classes that increase by increments of 10px
