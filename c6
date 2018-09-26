@@ -1,0 +1,21 @@
+<style type='text/sass'>
+  @each $color in blue,black,red {
+  .#{$color}-bg {
+  background-color: $color
+  }
+  }
+  div {
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>
+
+//Sass has an answer for problems that in Javascript would require the '.map()' method, and it's called the '@each' directive!
+//This is a more explicit and simplified version of the '.map()' method that is like a '.forEach()' method actually
+//You iterate over either a list or a map
+//A list is like an array without brackets
+//A map is like an object that uses parentheses instead of curly brackets
