@@ -1,0 +1,33 @@
+<style type='text/sass'>
+  $text-color: red;
+  h2{
+    color: $text-color;
+  }
+  .header{
+    text-align: center;
+  }
+  .blog-post, h2 {
+    color: $text-color;
+  }
+</style>
+
+<h1 class="header">Learn Sass</h1>
+<div class="blog-post">
+  <h2>Some random title</h2>
+  <p>This is a paragraph with some random text in it</p>
+</div>
+<div class="blog-post">
+  <h2>Header #2</h2>
+  <p>Here is some more random text.</p>
+</div>
+<div class="blog-post">
+  <h2>Here is another header</h2>
+  <p>Even more random text within a paragraph</p>
+</div>
+
+//This section is an introduction to Sass, specifically the SCSS syntax (the new syntax, file extension .scss)
+//They won't really cover the Sass (or 'indented', aka the OLD one, file extension .sass) syntax here
+
+//This challenge introduces the syntax for the Sass variable
+//$text-color is a variable that is used to set other elements' 'color' properties to red in this example
+//Gotta have that '$' for it to be a variable
